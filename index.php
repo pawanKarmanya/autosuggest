@@ -11,7 +11,7 @@
     </head>
     <body>
         
-        <input type="text" name="suggest" id="suggest">
+        <input type="text" name="suggest" placeholder="Enter city name" id="suggest">
         <div class="dropdown"> 
             <ul class="result">
             </ul>

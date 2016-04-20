@@ -5,14 +5,19 @@
 }
 #suggest{
     margin: 0;
+    width: 260px;
+    height: 30px;
+    font-size: 1.5em;
 }
 .dropdown{
     margin: 0;
 }
 .result li{
     margin: 0;
-    width: 160px;
+    width: 255px;
+    height: 30px;
     padding: 5px;
+    font-size: 1.5em;
     border: 1px solid black;
     cursor: pointer;
 }
