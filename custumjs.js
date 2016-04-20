@@ -6,7 +6,11 @@ $(document).ready(function () {
         
         $.post('submit.php',{search_term:search_term},function(data){
             $(".result").html(data);
-            
+            $(".result li").click(function(){
+               var value=$(this).text();
+               $("#suggest").val(value);
+               $(".result").html("");
+            });
         });
         
         
