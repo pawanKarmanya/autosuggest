@@ -1,0 +1,21 @@
+.result{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#suggest{
+    margin: 0;
+}
+.dropdown{
+    margin: 0;
+}
+.result li{
+    margin: 0;
+    width: 160px;
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.result li:hover{
+    background-color: blue;
+}
